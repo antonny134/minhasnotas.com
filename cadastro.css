@@ -55,3 +55,10 @@ button{
 .cadastro p {
     text-align: center;
 }
+.cadastro a {
+    text-decoration: none;
+    color:  #6fc3ff;
+}
+.cadastro a:hover{
+    text-decoration: underline;
+}
