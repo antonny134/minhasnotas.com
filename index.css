@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 2px;
+    box-sizing: border-box;
+    font: 'Outfit', sans-serif;
+        }
+button:hover{
+    color: blue;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.tema{
+    z-index: 2000;         /* Garante que fique sobre outros elementos */
+    width: 100%;
+    position: fixed;
+}
+.tema{
+    background: #333;
+    color: white;
+    margin: 0px;
+    z-index: 1000;
+}
+a {
+    font-size: 22px;    
+    color: white;
+    
+}
+.tema a:hover{
+    color: blueviolet;
+}
+
+.site a{
+    position: absolute;
+}
