@@ -1,0 +1,57 @@
+.cadastro{
+    background: #333;
+    border-radius: 22px;
+    
+}
+body{
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+}
+.cadastro{
+    background: #333;
+    border-radius: 22px;
+    width: min(320px, calc(100% - 32px));
+    padding: 35px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+.cadastro form{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.cadastro > div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.cadastro label {
+    color: white;
+    font-size: 0.95rem;
+}
+input{
+    width: 100%;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 22px;
+    outline: none;
+}
+button{
+    width: 100%;
+    border: none;
+    padding: 14px 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.a a{
+    margin-left: 150px;
+    font-size: 33px;
+    color: white;
+}
+.cadastro p {
+    text-align: center;
+}
