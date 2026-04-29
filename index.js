@@ -40,3 +40,9 @@ function s3(){
          document.getElementById("somas3").innerHTML = 'você não passou !';
     }
 }
+
+function navigateCatalog(page) {
+    if (page) {
+        window.location.href = page;
+    }
+}

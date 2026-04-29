@@ -9,20 +9,26 @@
     
 </head>
 <body>
-    <div class="tema" style="position: fixed; top: 0;">
+    
+    <div class="tema" style="position: fixed; top: 0; ">
         <div class="site">
-            <a href="cadastro.html"><span><i class="bi bi-person"></i></span></a>
+            
+            <div class="catalogo" >
+                <select name="catalogo" id="catalogo" onchange="navigateCatalog(this.value)">
+                    <option value="" disabled selected>Catálogo</option>
+                    <option value="cadastro.html">Cadastro</option>
+                    <option value="entrar.html">Entrar</option>
+                    <option value="usuario.html">Usuário</option>
+                </select>
+            </div>
         </div>
-        <div class="tema2" style="text-align: center;">
-            <h3 id="nome"></h3>
-        </div>
+       <div class="tema2" id="nome" style="text-align: center;"    >
         
     </div>
+    </div>
+    
     <br><br>
     <nav class="menu" style="background: gray;">
-        <div class="serie" style="text-align: end; ">
-            <h3 id="serie"></h3>
-        </div>
         <!--português-->
         <div class="português">
             <label for="português">Português:</label>
@@ -102,8 +108,6 @@
         </div>
     </nav>
     <script src="inde.js"></script>
-
-    </nav>
     <script src="index.js"></script>
 
 </body>
