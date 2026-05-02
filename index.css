@@ -1,15 +1,6 @@
-*{
-    margin: 0px;
-    padding: 2px;
-    box-sizing: border-box;
-    font: 'Outfit', sans-serif;
-        }
+
 button:hover{
     color: blue;
-}
-body{
-    margin: 0px;
-    padding: 0px;
 }
 .tema h3 {
     text-align: center;
@@ -17,15 +8,18 @@ body{
 .tema{
  padding: 16px;   
 }
+body{
+   display: flex;
+   
+}
+ 
+
 .tema{
 
     width: 100%;
     position: fixed;
 }
 .tema{
-    background: #333;
-    color: white;
-    margin: 0px;
     z-index: 1000;
 }
 a {
@@ -37,11 +31,8 @@ a {
 }
 .catalogo {
     position: fixed;
-    left: 90px;
-    top: 10px;
     display: flex;
     align-items: center;
-    gap: 8px;
 }
 .catalogo label {
     color: white;
@@ -66,14 +57,6 @@ a {
 .tema2 h3 {
     margin: 0;
     color: white;
-}
-.catalogo {
-    left: 90px;
-    top: 10px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    z-index: 1001;
 }
 .catalogo-links a {
     font-size: 14px;
